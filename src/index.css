@@ -1,0 +1,13 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+    @apply font-sans bg-cover bg-center relative; 
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-dibujado-mano-dia-internacional-medioambiente_23-2149425866.jpg?w=996&t=st=1713311694~exp=1713312294~hmac=5a03f3b79fbf1452520a028966c194093da1c40e447a91640f0ca87c9aa095f1'); 
+}
+
+.container {
+    @apply mx-auto px-4 max-w-screen-md relative z-10; 
+    background-color: rgba(255, 255, 255, 0.8);
+}
